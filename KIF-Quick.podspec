@@ -16,4 +16,5 @@ Write Quick specs to drive KIF actors through user interface actions.
   s.framework = 'XCTest'
   s.dependency 'KIF', '~> 3.0'
   s.dependency 'Quick', '~> 0.9.3'
+  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
