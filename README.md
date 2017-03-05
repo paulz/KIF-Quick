@@ -54,6 +54,10 @@ open Example/KIF-Quick.xcworkspace
 ```
 Select simulator and run tests as usual by pressing <kbd>Command</kbd> + <kbd>U</kbd>
 
+### NEW: Run tests on device
+
+Connect iOS device, select Example scheme and device in Xcode and run tests. You might need to select the development team in build settings that will be used to code sign the build.
+
 ### Command Line
 Run tests using xcodebuild:
 ```
